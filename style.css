@@ -1,0 +1,124 @@
+body {
+  background-color: rgb(155, 150, 150);
+}
+.fixed {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  border: 8px solid red;
+  box-shadow: 6px 6px darkmagenta;
+  border-radius: 15px;
+  background-color: rgb(104, 224, 24);
+  color: brown;
+  position: fixed;
+  font-style: italic;
+  font-size: 20px;
+  bottom: 50px;
+  left: 420px;
+  height: 65px;
+  width: 450px;
+  text-align: center;
+  z-index: 1;
+}
+.box {
+  border: 8px solid red;
+  box-shadow: 6px 6px darkmagenta;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  text-shadow: 2px 2px 2px;
+  display: inline-block;
+}
+
+.head {
+  height: 200px;
+  width: 520px;
+  position: relative;
+  top: -3px;
+  left: 400px;
+  color: brown;
+  font-style: italic;
+}
+.container {
+  border: 6px solid green;
+  width: 99%;
+  height: 750px;
+  margin-top: -4px;
+  position: relative;
+}
+.col-1 {
+  height: 280px;
+  width: 300px;
+  position: absolute;
+  left: 2px;
+  color: rgb(51, 4, 51);
+}
+.col-2 {
+  height: 280px;
+  width: 300px;
+  position: absolute;
+  background-image: url(./download.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  right: 60px;
+  top: 2px;
+}
+.col-3 {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  bottom: 40px;
+  left: 4px;
+  color: rgb(51, 4, 51);
+}
+.col-4 {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  bottom: 20px;
+  right: 60px;
+  color: rgb(51, 4, 51);
+}
+.number {
+  text-align: center;
+}
+.submit {
+  border-radius: 10px;
+  background-color: red;
+}
+.container-2 {
+  display: inline-block;
+  border: 6px solid darkmagenta;
+  width: 800px;
+  height: 610px;
+  background-color: green;
+  text-align: center;
+  position: relative;
+  top: 15px;
+  left: 250px;
+}
+.boxs {
+  display: inline-block;
+  background-color: khaki;
+  position: absolute;
+  border: 2px solid gray;
+  font-style: italic;
+}
+.column-1 {
+  height: 250px;
+  width: 392px;
+  left: 0px;
+}
+.column-2 {
+  height: 250px;
+  width: 392px;
+  right: 0px;
+}
+.row {
+  height: 250px;
+  width: 796px;
+  bottom: 10px;
+  left: 0px;
+}
